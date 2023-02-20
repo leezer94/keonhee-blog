@@ -17,7 +17,7 @@ module.exports = {
     screens: {
       sm: "640px",
     },
-
+    
     // Uncomment the following extend
     // if existing Tailwind color palette will be used
 
@@ -60,6 +60,7 @@ module.exports = {
     fontFamily: {
       mono: ["IBM Plex Mono", "monospace"],
     },
+    important : true,
     // },
   },
   plugins: [require("@tailwindcss/typography")],

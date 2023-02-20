@@ -65,6 +65,26 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <Hr />
 
+    {
+      featuredPosts.length > 0 && (
+        <>
+          <section id="featured">
+            <h2>Featured</h2>
+            <ul>
+              {featuredPosts.map(({ data }) => (
+                <Card
+                  href={`/posts/${slugify(data)}`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              ))}
+            </ul>
+          </section>
+          <Hr />
+        </>
+      )
+    }
+
     <section id="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
@@ -92,26 +112,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </LinkButton>
       </div>
     </section>
-
-    {
-      featuredPosts.length > 0 && (
-        <>
-          <section id="featured">
-            <h2>Featured</h2>
-            <ul>
-              {featuredPosts.map(({ data }) => (
-                <Card
-                  href={`/posts/${slugify(data)}`}
-                  frontmatter={data}
-                  secHeading={false}
-                />
-              ))}
-            </ul>
-          </section>
-          <Hr />
-        </>
-      )
-    }
   </main>
 
   <Footer />
