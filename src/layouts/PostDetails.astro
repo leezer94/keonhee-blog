@@ -1,13 +1,14 @@
 ---
-import Layout from "@layouts/Layout.astro";
-import Header from "@components/Header.astro";
-import Footer from "@components/Footer.astro";
-import Tag from "@components/Tag.astro";
-import Datetime from "@components/Datetime";
-import type { CollectionEntry } from "astro:content";
+import Layout from '@layouts/Layout.astro';
+import Header from '@components/Header.astro';
+import Footer from '@components/Footer.astro';
+import Tag from '@components/Tag.astro';
+import Datetime from '@components/Datetime';
+import type { CollectionEntry } from 'astro:content';
+import Language from '@components/Language';
 
 export interface Props {
-  post: CollectionEntry<"blog">;
+  post: CollectionEntry<'blog'>;
 }
 
 const { post } = Astro.props;
@@ -40,6 +41,9 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
     <ul class="tags-container">
       {tags.map(tag => <Tag name={tag} />)}
     </ul>
+    <!-- <div>
+      <Language client:only />
+    </div> -->
     <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
       <Content />
     </article>
@@ -56,5 +60,8 @@ const ogUrl = new URL(ogImage ? ogImage : `${title}.svg`, Astro.url.origin)
   }
   .tags-container {
     @apply my-8 font-bold tracking-wider;
+  }
+  .language-button {
+    @apply border-dotted font-bold;
   }
 </style>

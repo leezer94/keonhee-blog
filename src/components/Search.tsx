@@ -1,8 +1,8 @@
-import Fuse from "fuse.js";
-import { useEffect, useRef, useState } from "react";
-import Card from "@components/Card";
-import slugify from "@utils/slugify";
-import type { BlogFrontmatter } from "@content/_schemas";
+import Fuse from 'fuse.js';
+import { useEffect, useRef, useState } from 'react';
+import Card from '@components/Card';
+import slugify from '@utils/slugify';
+import type { BlogFrontmatter } from '@content/_schemas';
 
 export type SearchItem = {
   title: string;
@@ -21,7 +21,7 @@ interface SearchResult {
 
 export default function SearchBar({ searchList }: Props) {
   const inputRef = useRef<HTMLInputElement>(null);
-  const [inputVal, setInputVal] = useState("");
+  const [inputVal, setInputVal] = useState('');
   const [searchResults, setSearchResults] = useState<SearchResult[] | null>(
     null
   );
@@ -31,7 +31,7 @@ export default function SearchBar({ searchList }: Props) {
   };
 
   const fuse = new Fuse(searchList, {
-    keys: ["title", "description"],
+    keys: ['title', 'description'],
     includeMatches: true,
     minMatchCharLength: 2,
     threshold: 0.5,
@@ -41,7 +41,7 @@ export default function SearchBar({ searchList }: Props) {
     // if URL has search query,
     // insert that search query in input field
     const searchUrl = new URLSearchParams(window.location.search);
-    const searchStr = searchUrl.get("q");
+    const searchStr = searchUrl.get('q');
     if (searchStr) setInputVal(searchStr);
 
     // put focus cursor at the end of the string
@@ -60,12 +60,12 @@ export default function SearchBar({ searchList }: Props) {
     // Update search string in URL
     if (inputVal.length > 0) {
       const searchParams = new URLSearchParams(window.location.search);
-      searchParams.set("q", inputVal);
+      searchParams.set('q', inputVal);
       const newRelativePathQuery =
-        window.location.pathname + "?" + searchParams.toString();
-      history.pushState(null, "", newRelativePathQuery);
+        window.location.pathname + '?' + searchParams.toString();
+      history.pushState(null, '', newRelativePathQuery);
     } else {
-      history.pushState(null, "", window.location.pathname);
+      history.pushState(null, '', window.location.pathname);
     }
   }, [inputVal]);
 
@@ -97,8 +97,8 @@ export default function SearchBar({ searchList }: Props) {
         <div className="mt-8">
           Found {searchResults?.length}
           {searchResults?.length && searchResults?.length === 1
-            ? " result"
-            : " results"}{" "}
+            ? ' result'
+            : ' results'}{' '}
           for '{inputVal}'
         </div>
       )}
