@@ -16,7 +16,11 @@ description: Solving Typescript Exercises 1 / 타입스크립트 공부 및 영�
 
 ## Exercise 1
 
-#### Given the data, define the interface `User` and use it accordingly.
+<br>
+
+### Given the data, define the interface `User` and use it accordingly.
+
+<br>
 
 ```ts
 export type User = unknown;
@@ -89,5 +93,3 @@ export function logPerson(user: User) {
 console.log("Users:");
 users.forEach(logPerson);
 ```
-
----

@@ -16,7 +16,11 @@ description: Solving Typescript Exercises 2 / 타입스크립트 공부 및 영�
 
 ## Exercise 2
 
-#### Type `Person` is missing, please define it and use it in persons array and logPerson function in order to fix all the TS errors.
+<br>
+
+### Type `Person` is missing, please define it and use it in persons array and logPerson function in order to fix all the TS errors.
+
+<br>
 
 ```ts
 interface User {
@@ -119,5 +123,3 @@ export function logPerson(user: Person) {
 
 persons.forEach(logPerson);
 ```
-
----
