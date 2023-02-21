@@ -1,36 +1,58 @@
 ---
 layout: ../layouts/AboutLayout.astro
-title: "About"
+title: 'About'
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Hello, My name is `Keonhee Lee` a junior Web Dev ( Frontend ) <br> from Seoul / South Korea.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Before frontend dev job, I had worked as a chef in several places and countries such as Ireland and Germany for 5 years in total.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+In this blog, I will be writing about my projects, my learning processes, and some random stuffs.
+
+## Tech Stack
+
+- React
+- Next.js
+- Typescript
+
+## Education
+
+- `Youngmun High School ( 2010.02 ~ 2013.02 )`
+
+- `Next Step ( 2022.02 ~ 2022.02 ) 2 weeks`
+
+  - Learned Javascript fundamental
+  - Built a Todo App using Javascript
+  - Experienced Code reviews
+
+- `CodeStates [Frontend Dev Course] ( 2022.06 ~ 2022.12 ) 6 months`
+
+  - Learned Frontend fundamentals such as JS, React, CI/CD, Git ...
+  - Experienced working with people as a developer
+  - Built several Toy projects through the course
+  - Built a Final Project working with Backend developers as a Team
+
+- `Wanted Frontend Pre-Onboarding ( 2022.12 ~ 2023.01) 1 month`
+
+  - Experienced 4 Company Assignments
+
+## Certification
+
+### IELTS ( Overall 6.5 / May 2022 )
+
+- Speaking : 8
+- Listening : 7
+- Reading : 5.5
+- Writing : 6.0
 
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-## Tech Stack
+If you want to get to know me,
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+you can contact me via my [Email](2kunhee94@gmail.com).
 
-## Features
+check out my blog post on [Medium Blog](https://medium.com/@2kunhee94).
 
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+check out my [Github](https://github.com/leezer94).

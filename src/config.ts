@@ -1,4 +1,10 @@
-import type { SocialObjects } from './types';
+import type { SocialObjects, Project } from './types';
+
+import {
+  BobaeBilimLogo,
+  PaldoGamesLogo,
+  StackOverflowLogo,
+} from './assets/projects';
 
 export const SITE = {
   website: 'https://keonheelee.vercel.app/',
@@ -16,6 +22,48 @@ export const LOGO_IMAGE = {
   width: 216,
   height: 46,
 };
+
+export const PROJECT_LIST: Project[] = [
+  {
+    title: '보배빌림 ( BobaeBilim )',
+    type: 'Frontend',
+    image: BobaeBilimLogo,
+    desc: '코드스테이츠 Final-project 보배빌림',
+    tags: [
+      'React',
+      'styled-components',
+      'recoil',
+      'react-query',
+      'MSW',
+      'Vite',
+    ],
+    liveUrl:
+      'http://battery-bucket-deploy.s3-website.ap-northeast-2.amazonaws.com/',
+    codeUrl: 'https://github.com/codestates-seb/seb40_main_030',
+    retrospective: '',
+  },
+  {
+    title: 'PaldoGames',
+    type: 'Frontend',
+    image: PaldoGamesLogo,
+    desc: '팔도게임즈 게임 커뮤니티',
+    tags: ['Next.js', 'styled-components', 'recoil'],
+    liveUrl: 'https://paldo-games.vercel.app/',
+    codeUrl: 'https://github.com/haileyport/PaldoGames/tree/keonhee',
+    retrospective: '',
+  },
+  {
+    title: 'Stack Overflow Clone',
+    type: 'Frontend',
+    image: StackOverflowLogo,
+    desc: '코드스테이츠 Pre-project Stack Overflow',
+    tags: ['React', 'styled-components', 'recoil', 'react-query', 'MSW'],
+    liveUrl:
+      'http://pre-project-deploy.s3-website.ap-northeast-2.amazonaws.com/',
+    codeUrl: 'https://github.com/codestates-seb/seb40_pre_001',
+    retrospective: '',
+  },
+];
 
 export const SOCIALS: SocialObjects = [
   {

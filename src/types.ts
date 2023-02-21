@@ -10,24 +10,35 @@ export type SocialIcons = {
 };
 
 export type SocialMedia =
-  | "Github"
-  | "Facebook"
-  | "Instagram"
-  | "LinkedIn"
-  | "Mail"
-  | "Twitter"
-  | "Twitch"
-  | "YouTube"
-  | "WhatsApp"
-  | "Snapchat"
-  | "Pinterest"
-  | "TikTok"
-  | "CodePen"
-  | "Discord"
-  | "GitLab"
-  | "Reddit"
-  | "Skype"
-  | "Steam"
-  | "Telegram"
-  | "Mastodon"
-  | "Medium";
+  | 'Github'
+  | 'Facebook'
+  | 'Instagram'
+  | 'LinkedIn'
+  | 'Mail'
+  | 'Twitter'
+  | 'Twitch'
+  | 'YouTube'
+  | 'WhatsApp'
+  | 'Snapchat'
+  | 'Pinterest'
+  | 'TikTok'
+  | 'CodePen'
+  | 'Discord'
+  | 'GitLab'
+  | 'Reddit'
+  | 'Skype'
+  | 'Steam'
+  | 'Telegram'
+  | 'Mastodon'
+  | 'Medium';
+
+export type Project = {
+  title: string;
+  type: string;
+  image: string;
+  desc: string;
+  tags: string[];
+  liveUrl: string;
+  codeUrl: string;
+  retrospective: string;
+};
