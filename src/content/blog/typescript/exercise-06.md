@@ -151,7 +151,7 @@ export function filterPersons(
 
 ### `2. Bonus exercise Using Generic Type`
 
-We can implement `getObjectKeys()` function in order to get for convenient result (to make the function more flexible)
+We can implement `getObjectKeys()` function in order to get convenient result ( to make the function more flexible )
 
 ```ts
 const getObjectKeys = <T>(obj: T) => Object.keys(obj) as (keyof T)[];
