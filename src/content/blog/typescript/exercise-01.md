@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - Typescript
-description: Solving Typescript Exercises 1 / 타입스크립트 공부 및 영작문 연습
+description: Solving Typescript Exercises 1 / 타입스크립트 공부 및 영작 연습
 ---
 
 ## [Typescript Exercise 1](https://typescript-exercises.github.io/#exercise=1&file=%2Findex.ts)
@@ -27,14 +27,14 @@ export type User = unknown;
 
 export const users: unknown[] = [
   {
-    name: "Max Mustermann",
+    name: 'Max Mustermann',
     age: 25,
-    occupation: "Chimney sweep",
+    occupation: 'Chimney sweep',
   },
   {
-    name: "Kate Müller",
+    name: 'Kate Müller',
     age: 23,
-    occupation: "Astronaut",
+    occupation: 'Astronaut',
   },
 ];
 
@@ -42,7 +42,7 @@ export function logPerson(user: unknown) {
   console.log(` - ${user.name}, ${user.age}`);
 }
 
-console.log("Users:");
+console.log('Users:');
 users.forEach(logPerson);
 ```
 
@@ -75,14 +75,14 @@ export type User = {
 
 export const users: User[] = [
   {
-    name: "Max Mustermann",
+    name: 'Max Mustermann',
     age: 25,
-    occupation: "Chimney sweep",
+    occupation: 'Chimney sweep',
   },
   {
-    name: "Kate Müller",
+    name: 'Kate Müller',
     age: 23,
-    occupation: "Astronaut",
+    occupation: 'Astronaut',
   },
 ];
 
@@ -90,6 +90,6 @@ export function logPerson(user: User) {
   console.log(` - ${user.name}, ${user.age}`);
 }
 
-console.log("Users:");
+console.log('Users:');
 users.forEach(logPerson);
 ```

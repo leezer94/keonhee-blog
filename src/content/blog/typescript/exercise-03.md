@@ -7,7 +7,7 @@ featured: false
 draft: false
 tags:
   - Typescript
-description: Solving Typescript Exercises 3 / 타입스크립트 공부 및 영작문 연습
+description: Solving Typescript Exercises 3 / 타입스크립트 공부 및 영작 연습
 ---
 
 ## [Typescript Exercise 3](https://typescript-exercises.github.io/#exercise=3&file=%2Findex.ts)
@@ -39,24 +39,24 @@ export type Person = User | Admin;
 
 export const persons: Person[] = [
   {
-    name: "Max Mustermann",
+    name: 'Max Mustermann',
     age: 25,
-    occupation: "Chimney sweep",
+    occupation: 'Chimney sweep',
   },
   {
-    name: "Jane Doe",
+    name: 'Jane Doe',
     age: 32,
-    role: "Administrator",
+    role: 'Administrator',
   },
   {
-    name: "Kate Müller",
+    name: 'Kate Müller',
     age: 23,
-    occupation: "Astronaut",
+    occupation: 'Astronaut',
   },
   {
-    name: "Bruce Willis",
+    name: 'Bruce Willis',
     age: 64,
-    role: "World saver",
+    role: 'World saver',
   },
 ];
 
@@ -96,7 +96,7 @@ Rather than using `dot notation` to access an object passed as a parameter, it i
 like below
 
 ```ts
-if ("role" in person) {
+if ('role' in person) {
   additionalInformation = person.role;
 } else {
   additionalInformation = person.occupation;
