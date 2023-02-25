@@ -253,7 +253,7 @@ export function requestUsers(
 }
 ```
 
-### `3. `
+### `3. Make it more expandable`
 
 In the type `ApiResponse` we shouldn't pass `T []` as type for data because, we never know which type will be passed as data type
 
