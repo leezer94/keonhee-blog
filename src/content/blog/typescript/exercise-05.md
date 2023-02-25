@@ -10,7 +10,7 @@ tags:
 description: Solving Typescript Exercises 5 / 타입스크립트 공부 및 영작 연습
 ---
 
-## [Typescript Exercise 5](https://typescript-exercises.github.io/#exercise=4&file=%2Findex.ts)
+## [Typescript Exercise 5](https://typescript-exercises.github.io/#exercise=5&file=%2Findex.ts)
 
 <br>
 

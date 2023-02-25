@@ -10,7 +10,7 @@ tags:
 description: Solving Typescript Exercises 6 / 타입스크립트 공부 및 영작 연습
 ---
 
-## [Typescript Exercise 6](https://typescript-exercises.github.io/#exercise=4&file=%2Findex.ts)
+## [Typescript Exercise 6](https://typescript-exercises.github.io/#exercise=6&file=%2Findex.ts)
 
 <br>
 
