@@ -40,7 +40,7 @@ export const PROJECT_LIST: Project[] = [
     liveUrl:
       'http://battery-bucket-deploy.s3-website.ap-northeast-2.amazonaws.com/',
     codeUrl: 'https://github.com/codestates-seb/seb40_main_030',
-    retrospective: '',
+    retrospective: 'https://medium.com/p/3029d90b7fb',
   },
   {
     title: 'PaldoGames',
@@ -50,7 +50,8 @@ export const PROJECT_LIST: Project[] = [
     tags: ['Next.js', 'styled-components', 'recoil'],
     liveUrl: 'https://paldo-games.vercel.app/',
     codeUrl: 'https://github.com/haileyport/PaldoGames/tree/keonhee',
-    retrospective: '',
+    retrospective:
+      'https://medium.com/@2kunhee94/%EB%B3%B4%EB%B0%B0%EB%B9%8C%EB%A6%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-42f161cd971d',
   },
   {
     title: 'Stack Overflow Clone',
@@ -61,7 +62,8 @@ export const PROJECT_LIST: Project[] = [
     liveUrl:
       'http://pre-project-deploy.s3-website.ap-northeast-2.amazonaws.com/',
     codeUrl: 'https://github.com/codestates-seb/seb40_pre_001',
-    retrospective: '',
+    retrospective:
+      'https://medium.com/@2kunhee94/%EC%BD%94%EB%93%9C%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%B8%A0-pre-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-8661ea0c5bd1',
   },
 ];
 
