@@ -25,11 +25,12 @@ export const LOGO_IMAGE = {
 
 export const PROJECT_LIST: Project[] = [
   {
-    title: '보배빌림 ( BobaeBilim )',
+    title: '보배빌림',
     type: 'Frontend',
     image: BobaeBilimLogo,
-    desc: '코드스테이츠 Final-project 보배빌림',
+    desc: '전기자동차 충전소 부족 문제 해결을 위한 보조배터리 대여 서비스 보배빌림',
     tags: [
+      'Typescript',
       'React',
       'styled-components',
       'recoil',
@@ -43,15 +44,15 @@ export const PROJECT_LIST: Project[] = [
     retrospective: 'https://medium.com/p/3029d90b7fb',
   },
   {
-    title: 'PaldoGames',
+    title: '팔도게임즈',
     type: 'Frontend',
     image: PaldoGamesLogo,
-    desc: '팔도게임즈 게임 커뮤니티',
+    desc: '코드스테이츠 40기 수강생들을 위한 커뮤니티 및 게임모음 팔도게임즈',
     tags: ['Next.js', 'styled-components', 'recoil'],
     liveUrl: 'https://paldo-games.vercel.app/',
     codeUrl: 'https://github.com/haileyport/PaldoGames/tree/keonhee',
     retrospective:
-      'https://medium.com/@2kunhee94/%EB%B3%B4%EB%B0%B0%EB%B9%8C%EB%A6%BC-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-42f161cd971d',
+      'https://medium.com/@2kunhee94/%ED%8C%94%EB%8F%84%EA%B2%8C%EC%9E%84%EC%A6%88-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0-cf1b432700eb',
   },
   {
     title: 'Stack Overflow Clone',
