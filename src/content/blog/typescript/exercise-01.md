@@ -1,6 +1,6 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-02-20T16:06:00Z
+pubDatetime: 2023-02-20T03:06:00Z
 title: Typescript Exercises 1
 postSlug: typescript-exercises-1
 featured: false

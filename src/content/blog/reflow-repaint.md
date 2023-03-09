@@ -1,6 +1,6 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-03-08T18:50:00Z
+pubDatetime: 2023-03-09T10:40:44Z
 title: How reflow and repaint works ?
 postSlug: reflow-repaint
 featured: true
