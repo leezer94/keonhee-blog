@@ -1,8 +1,8 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-03-09T10:40:44Z
-title: How reflow and repaint works ?
-postSlug: reflow-repaint
+title: How reflow and repaint works
+postSlug: browser-reflow-repaint
 featured: true
 draft: false
 tags:
