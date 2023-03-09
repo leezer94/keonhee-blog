@@ -74,6 +74,6 @@ which is very expensive work for browser to do if it happens so many times and s
   - They have re-calculated each time the document, or part of document modified.
   - It can occur so many times( like thousands of ) per second
 
-##### In the following post we are going to get into
+##### In the following post we are going to get into `How we minimize reflow and repaint`
 
-<a href='./minimize-reflow-repaint'>`How we minimize reflow and repaint`</a>
+<!-- <a href='./minimize-reflow-repaint'>`How we minimize reflow and repaint`</a> -->
