@@ -34,7 +34,7 @@ to understand this concept we need to get into how browser renders the website f
 
 ### This is a brief explanation of how browser renders the website.
 
-![Browser rendering](/public/assets/images/browser_rendering.png 'browser rendering')
+![Browser rendering](https://res.cloudinary.com/practicaldev/image/fetch/s--gCp3mv5T--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/vbtr2gfaitr0am5nl4io.png 'browser rendering')
 
 - when the users enter the URL, it will fetch the HTML source code from the server
 - Browser parse the HTML source code and convert into token <br>
