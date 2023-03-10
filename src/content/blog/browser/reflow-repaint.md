@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-03-09T10:40:44Z
-title: How reflow and repaint works
+title: How reflow and repaint work
 postSlug: browser-reflow-repaint
 featured: true
 draft: false
@@ -58,7 +58,7 @@ to understand this concept we need to get into how browser renders the website f
 
 Basically, most `reflows` essentially cause page to be `re-rendered`
 
-which is very expensive work for browser to do if it happens so many times and so often as well as `repaint`
+which is very expensive work for browser to do if it happens so many times and so often as well as `repaint` ( not exactly the same tho )
 
 #### These are the lists of what causes browser to reflow and repaint
 
@@ -74,6 +74,6 @@ which is very expensive work for browser to do if it happens so many times and s
   - They have re-calculated each time the document, or part of document modified.
   - It can occur so many times( like thousands of ) per second
 
-##### In the following post we are going to get into `How we minimize reflow and repaint`
+##### In the following post we are going to get into
 
-<!-- <a href='./minimize-reflow-repaint'>`How we minimize reflow and repaint`</a> -->
+<a href='./minimize-reflow-repaint'>`How we minimize reflow and repaint`</a>
