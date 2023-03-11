@@ -15,9 +15,9 @@ description: How to minimize reflow and repaint in the browser ? / 브라우저 
 
 In the previous post, I talked about how reflow and repaint work in the browser.
 
-Since, It causes re-render we know now it is a expensive job for browser to do.
+Since It causes re-render, We know now it is a expensive job for browser to do.
 
-then how we avoid or minimize this expensive job ?
+Then, how we avoid or minimize this expensive job ?
 
 ## Minimize reflow and repaint
 
@@ -98,7 +98,7 @@ If the depth of the DOM is too deep, it takes more calculation and more time to 
 
 If we make a change to parent element, it affects the child elements as well.
 
-Since, DOM manipulation is necessary we can minimize this works by reducing the depth of the DOM.
+Since DOM manipulation is necessary, We can minimize this works by reducing the depth of the DOM.
 
 or also by separating big component to smaller components we can reduce the depth of the DOM as well.
 
@@ -222,6 +222,8 @@ Inline styling increases size of HTML which can slow down performance of page.
 ---
 
 ### `6. Use Browser Dev Tools ( Inspector )`
+
+---
 
 ### USEful content
 
