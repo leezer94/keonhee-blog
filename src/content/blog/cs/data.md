@@ -3,7 +3,7 @@ author: Keonhee Lee
 pubDatetime: 2023-03-11T14:06:00Z
 title: How computer understand data
 postSlug: computer-expression
-featured: true
+featured: false
 draft: false
 tags:
   - CS

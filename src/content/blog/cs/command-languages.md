@@ -3,7 +3,7 @@ author: Keonhee Lee
 pubDatetime: 2023-03-11T14:30:00Z
 title: Source Code and Commands
 postSlug: source-code-and-command
-featured: true
+featured: false
 draft: false
 tags:
   - CS

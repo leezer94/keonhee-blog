@@ -3,7 +3,7 @@ author: Keonhee Lee
 pubDatetime: 2023-02-25T18:03:00Z
 title: Typescript Exercises 10
 postSlug: typescript-exercises-10
-featured: false
+featured: true
 draft: false
 tags:
   - Typescript
@@ -192,7 +192,7 @@ export function promisify(callbackFn: unknown): PromisicateddResult<T> {
 
   return () =>
     new Promise((resolve, reject) => {
-      callbackFn(response => {
+      callbackFn((response) => {
         if (response.status === 'success') {
           resolve(response.data);
         } else {
@@ -228,7 +228,7 @@ export function promisify<T>(
   // this function should return Promise
   return () =>
     new Promise((resolve, reject) => {
-      callbackFn(response => {
+      callbackFn((response) => {
         if (response.status === 'success') {
           resolve(response.data);
         } else {

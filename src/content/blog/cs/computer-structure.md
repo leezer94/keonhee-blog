@@ -3,7 +3,7 @@ author: Keonhee Lee
 pubDatetime: 2023-03-11T12:06:00Z
 title: About Computer Structure
 postSlug: about-computer-structure
-featured: true
+featured: false
 draft: false
 tags:
   - CS
