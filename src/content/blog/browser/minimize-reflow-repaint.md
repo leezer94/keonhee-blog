@@ -21,7 +21,7 @@ Then, how we avoid or minimize this expensive job ?
 
 ## Minimize reflow and repaint
 
-There are many factors causes reflow and repaint
+There are some ways to minimize reflow and repaint
 
 ### `1. Update DOM in batch`
 
@@ -34,7 +34,7 @@ Instead of updating DOM in every each in a loop like below:
 ```js
 const container = document.getElementById('container');
 
-data.forEach(item => {
+data.forEach((item) => {
   const newElement = document.createElement('div');
 
   newElement.textContent = item.text;
@@ -50,7 +50,7 @@ const container = document.getElementById('container');
 
 const fragment = document.createDocumentFragment();
 
-data.forEach(item => {
+data.forEach((item) => {
   const newElement = document.createElement('div');
   newElement.textContent = item.text;
 
