@@ -10,10 +10,10 @@ tags:
   - reflow
   - repaint
   - performance
-description: How reflow and repaint works in JS and Browser ? / 브라우저 리플로우 리페인트 과정 영작 연습
+description: How reflow and repaint work in JS and Browser ? / 브라우저 리플로우 리페인트 과정 영작 연습
 ---
 
-### First off, what is `Repaint` and `Reflow` in the Browser
+### First off, what are `Repaint` and `Reflow` in the Browser
 
 <dl>
   <dt><strong>Repaint</strong></dt>
