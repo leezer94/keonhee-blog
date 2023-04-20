@@ -1,6 +1,6 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-04-15T14:30:00Z
+pubDatetime: 2023-04-16T14:30:00Z
 title: 2620. Counter ( Easy )
 postSlug: 2620-counter
 featured: false
