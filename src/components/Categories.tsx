@@ -1,6 +1,6 @@
 import { POST_CATEGORIES } from '../config';
 
-type PostCategories = 'CS' | 'LeetCode' | 'Generics' | 'ETC';
+type PostCategories = 'CS' | 'Generics' | 'ETC';
 
 export default function PostCategories() {
   return (
