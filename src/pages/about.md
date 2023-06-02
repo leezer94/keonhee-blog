@@ -11,30 +11,38 @@ In this blog, I will be writing about my projects, my learning processes, and so
 
 ## Tech Stack
 
-- React
-- Next.js
-- Typescript
+- `Client`
+  - HTML / CSS
+  - Javascript
+  - Typescript
+  - React
+- `Server`
+  - Nest.js
 
 ## Education
 
-- `Youngmun High School ( 2010.02 ~ 2013.02 )`
+- `Seoul Software Academy, SeSac ( 2023.05 ~ 2023.10 ) `
 
-- `Next Step ( 2022.02 ~ 2022.02 ) 2 weeks`
+  - FullStack Web dev course
 
-  - Learned Javascript fundamental
-  - Built a Todo App using Javascript
-  - Experienced Code reviews
+- `Wanted Frontend Pre-Onboarding ( 2022.12 ~ 2023.01)`
 
-- `CodeStates [Frontend Dev Course] ( 2022.06 ~ 2022.12 ) 6 months`
+  - Experienced 4 Company Assignments
+
+- `CodeStates [Frontend Dev Course] ( 2022.06 ~ 2022.12 ) `
 
   - Learned Frontend fundamentals such as JS, React, CI/CD, Git ...
   - Experienced working with people as a developer
   - Built several Toy projects through the course
   - Built a Final Project working with Backend developers as a Team
 
-- `Wanted Frontend Pre-Onboarding ( 2022.12 ~ 2023.01) 1 month`
+- `Next Step ( 2022.02 ~ 2022.02 )`
 
-  - Experienced 4 Company Assignments
+  - Learned Javascript fundamental
+  - Built a Todo App using Javascript
+  - Experienced Code reviews
+
+- `Youngmun High School ( 2010.02 ~ 2013.02 )`
 
 ## Certification
 
