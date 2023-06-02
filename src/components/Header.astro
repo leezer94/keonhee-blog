@@ -7,7 +7,7 @@ import logoPNG from '/assets/logo.png';
 import logoSVG from '/assets/logo.svg';
 
 export interface Props {
-  activeNav?: 'posts' | 'tags' | 'about' | 'search' | 'projects';
+  activeNav?: 'posts' | 'tags' | 'about' | 'search' | 'projects' | 'leetcode';
 }
 
 const { activeNav } = Astro.props;
@@ -55,6 +55,14 @@ const { activeNav } = Astro.props;
               Tags
             </a>
           </li>
+          <!-- <li>
+            <a
+              href="/leetcode"
+              class={activeNav === 'leetcode' ? 'active' : ''}
+            >
+              LeetCode
+            </a>
+          </li> -->
           <li>
             <a
               rel="prefetch"

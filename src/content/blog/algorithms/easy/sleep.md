@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-04-18T16:30:00Z
-title: 2621. Sleep ( Easy )
+title: 2621. Sleep
 postSlug: 2621-sleep
 featured: false
 draft: false

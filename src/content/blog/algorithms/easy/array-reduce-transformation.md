@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-04-20T14:30:00Z
-title: 2626. Array Reduce Transformation ( Easy )
+title: 2626. Array Reduce Transformation
 postSlug: 2626-array-reduce-transformation
 
 featured: false

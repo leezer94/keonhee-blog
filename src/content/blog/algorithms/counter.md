@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-04-15T14:30:00Z
-title: 2619. Array Prototype Last
+title: 2619. Array Prototype Last ( Easy )
 postSlug: 2619-array-prototype-last
 
 featured: false

@@ -2,7 +2,6 @@
 author: Keonhee Lee
 pubDatetime: 2023-04-20T16:30:00Z
 title: 2635. Apply Transform Over Each Element in Array
-  ( Easy )
 postSlug: 2634-apply-transform-over-each-element-in-array
 featured: false
 draft: false

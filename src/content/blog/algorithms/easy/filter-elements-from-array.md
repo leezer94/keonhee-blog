@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-04-20T16:00:00Z
-title: 2634. Filter Elements From Array ( Easy )
+title: 2634. Filter Elements From Array
 postSlug: 2634-filter-elements-from-array
 featured: false
 draft: false

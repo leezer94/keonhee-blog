@@ -118,7 +118,7 @@ function logPerson(person: Person) {
 }
 
 function startTheApp(callback: (error: Error | null) => void) {
-  requestAdmins(adminsResponse => {
+  requestAdmins((adminsResponse) => {
     console.log('Admins:');
     if (adminsResponse.status === 'success') {
       adminsResponse.data.forEach(logPerson);
@@ -128,7 +128,7 @@ function startTheApp(callback: (error: Error | null) => void) {
 
     console.log();
 
-    requestUsers(usersResponse => {
+    requestUsers((usersResponse) => {
       console.log('Users:');
       if (usersResponse.status === 'success') {
         usersResponse.data.forEach(logPerson);
@@ -138,7 +138,7 @@ function startTheApp(callback: (error: Error | null) => void) {
 
       console.log();
 
-      requestCurrentServerTime(serverTimeResponse => {
+      requestCurrentServerTime((serverTimeResponse) => {
         console.log('Server time:');
         if (serverTimeResponse.status === 'success') {
           console.log(
@@ -150,7 +150,7 @@ function startTheApp(callback: (error: Error | null) => void) {
 
         console.log();
 
-        requestCoffeeMachineQueueLength(coffeeMachineQueueLengthResponse => {
+        requestCoffeeMachineQueueLength((coffeeMachineQueueLengthResponse) => {
           console.log('Coffee machine queue length:');
           if (coffeeMachineQueueLengthResponse.status === 'success') {
             console.log(`   ${coffeeMachineQueueLengthResponse.data}`);

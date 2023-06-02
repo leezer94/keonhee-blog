@@ -23,6 +23,8 @@ export const LOGO_IMAGE = {
   height: 46,
 };
 
+export const POST_CATEGORIES = ['CS', 'LeetCode', 'Generics', 'ETC'];
+
 export const PROJECT_LIST: Project[] = [
   {
     title: '보배빌림',

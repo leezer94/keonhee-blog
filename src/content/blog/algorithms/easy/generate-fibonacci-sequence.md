@@ -1,7 +1,7 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-04-20T15:30:00Z
-title: 2629. Function Composition
+pubDatetime: 2023-04-23T15:30:00Z
+title: 2648. Generate Fibonacci Sequence
 postSlug: 2629-function-composition
 featured: false
 draft: false
@@ -9,53 +9,39 @@ tags:
   - Algorithms
   - LeetCode
   - Easy
-description: LeetCode 2629. Function Composition
+description: LeetCode 2648. Generate Fibonacci Sequence
 ---
 
-## 2629. Function Composition
+## 2648. Generate Fibonacci Sequence
 
 ---
 
-Given an array of functions [f1, f2, f3, ..., fn], return a new function fn that is the function composition of the array of functions.
+Write a generator function that returns a generator object which yields the fibonacci sequence.
 
-The function composition of [f(x), g(x), h(x)] is fn(x) = f(g(h(x))).
+The fibonacci sequence is defined by the relation `Xn = Xn-1 + Xn-2.`
 
-The function composition of an empty list of functions is the identity function f(x) = x.
-
-You may assume each function in the array accepts one integer as input and returns one integer as output.
+The first few numbers of the series are` 0, 1, 1, 2, 3, 5, 8, 13.`
 
 Example 1.
 
 ```js
-Input: functions = [x => x + 1, x => x * x, x => 2 * x], x = 4
-Output: 65
+Input: callCount = 5
+Output: [0,1,1,2,3]
 Explanation:
-Evaluating from right to left ...
-Starting with x = 4.
-2 * (4) = 8
-(8) * (8) = 64
-(64) + 1 = 65
+const gen = fibGenerator();
+gen.next().value; // 0
+gen.next().value; // 1
+gen.next().value; // 1
+gen.next().value; // 2
+gen.next().value; // 3
 ```
 
 Example 2
 
 ```js
-Input: functions = [x => 10 * x, x => 10 * x, x => 10 * x], x = 1
-Output: 1000
-Explanation:
-Evaluating from right to left ...
-10 * (1) = 10
-10 * (10) = 100
-10 * (100) = 1000
-```
-
-Example 3
-
-```js
-Input: functions = [], x = 42
-Output: 42
-Explanation:
-The composition of zero functions is the identity function
+Input: callCount = 0
+Output: []
+Explanation: gen.next() is never called so nothing is outputted
 ```
 
 ### Approach
