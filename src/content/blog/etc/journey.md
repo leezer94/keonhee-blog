@@ -72,10 +72,10 @@ It was my first job interview ever, and I was nervous. I wasn't really prepared 
 
 Fair enough! I Learned a lot from the interview anyways.
 
-- How i was supposed to answer the question like a developer.
-- I may not ready to have interview yet.
-- Do i really wanna be a web dev ? and why ?
-- Study more !
+- How was I supposed to answer the question like a developer?
+- Maybe I am not yet ready for interviews.
+- Do I really want to be a web developer, and why?
+- I need to study more!
 
 #### The Second Interview ( April )
 
