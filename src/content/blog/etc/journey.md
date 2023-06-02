@@ -10,7 +10,7 @@ tags:
 description: Journey so far
 ---
 
-## Seoul Software Academy
+## Dev Journey so far
 
 ---
 
