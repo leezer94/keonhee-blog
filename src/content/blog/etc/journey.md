@@ -1,9 +1,9 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-06-02T08:30:00Z
+pubDatetime: 2021-06-02T08:30:00Z
 title: dev journey so far
 postSlug: dev-journey-so-far
-featured: true
+featured: false
 draft: false
 tags:
   - journey
