@@ -1,6 +1,6 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-06-13T04:03:00Z
+pubDatetime: 2023-06-13T06:55:00Z
 title: Learning Typescript Chapter 3
 postSlug: learning-typescript-3
 featured: true

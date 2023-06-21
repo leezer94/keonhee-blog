@@ -1,6 +1,6 @@
 ---
 author: Keonhee Lee
-pubDatetime: 2023-06-18T04:03:00Z
+pubDatetime: 2023-06-18T03:22:00Z
 title: Learning Typescript Chapter 5
 postSlug: learning-typescript-5
 featured: true
@@ -20,7 +20,7 @@ function sing(song) {
 }
 ```
 
-sing 함수를 작성한 개발자가 song 매개변수를 제공하기 위해 의도한 값의 타입은 무엇일까 ?
+sing 함수를 작성한 개발자가 song 매개변수를` 제공하기 위해 의도한 값의 타입은 무엇일까 ?
 
 명시적 타입 정보가 선언되지 않는다면, 타입스크립트가 이를 `any` 타입으로간주하기 때문에 매개변수의 타입은 무엇이든 될 수 있다.
 
