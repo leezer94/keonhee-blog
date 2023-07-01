@@ -16,9 +16,9 @@ description: 구문 확장
 
 오늘날, 타입스크립트와 같은 상위 집합 언어에 특정 새로운 런타임 기능으로 자바스크립트 구문을 확장하는 방식은 다음과 같은 이유로 인해 나쁜 사례로 간주한다.
 
-- `**런타임 구문 확장이 최신버전 자바스크립트의 새로운 구문과 충돌할 수 있다는 점이 가장 중요하다.**`
-- `**언어를 처음 접하는 프로그래머가 자바스크립트가 끝나는 곳과 다른 언어가 시작하는 곳을 이해하기 어렵게 만든다.**`
-- `**상위 집합 언어 코드를 ㅅ용하고 자바스크립트를 내보내는 트랜스파일러의 복잡성을 증가시킨다.**`
+- `런타임 구문 확장이 최신버전 자바스크립트의 새로운 구문과 충돌할 수 있다는 점이 가장 중요하다.`
+- `언어를 처음 접하는 프로그래머가 자바스크립트가 끝나는 곳과 다른 언어가 시작하는 곳을 이해하기 어렵게 만든다.`
+- `상위 집합 언어 코드를 ㅅ용하고 자바스크립트를 내보내는 트랜스파일러의 복잡성을 증가시킨다.`
 
 ## 클래스 매개변수 속성
 
@@ -41,7 +41,7 @@ class Engineer {
 new Engineer('mechanical').area; // 'mechanical'
 ```
 
-타입스크립트는 이러한 종류의 `매개변수 속성` 을 선언하기 위한 **단축 구문**을 제공한다.
+타입스크립트는 이러한 종류의 `매개변수 속성` 을 선언하기 위한 단축 구문을 제공한다.
 
 속성은 클래스 생성자의 시작부분에 동일한 타입의 멤버 속성으로 할당된다.
 
@@ -111,7 +111,7 @@ ECMA 스크립트에서 데코레이터를 아직 승인하지 않았으나 타�
 
 - typescript 5.0 버전에서도 decorators 함수에 대한 언급이 있다. ( [링크](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html) )
 - https://github.com/tc39/proposal-decorators
-- `[**참고링크**](https://inpa.tistory.com/entry/TS-%F0%9F%93%98-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0-%EA%B0%9C%EB%85%90-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)`
+- `[참고링크](https://inpa.tistory.com/entry/TS-%F0%9F%93%98-%ED%83%80%EC%9E%85%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EB%8D%B0%EC%BD%94%EB%A0%88%EC%9D%B4%ED%84%B0-%EA%B0%9C%EB%85%90-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%A0%95%EB%A6%AC)`
 
 데코레이터의 각 사용법은 데코레이팅 하는 엔티티가 생성되자마자 한 번 실행됩니다.
 
@@ -219,7 +219,7 @@ statusCode = 500; // OK
 
 ---
 
-### `**자동 숫잣값**`
+### `자동 숫잣값`
 
 열거형의 멤버는 명시적인 초깃값을 가질 필요가 없다.
 
@@ -369,9 +369,9 @@ ECMA 스크립트 모듈이 승인되기 전에는 웹 애플리케이션이 출
 
 이러한 거대한 하나의 파일은 종종 프로젝트의 서로 다른 영역에 걸쳐서 중요한 값에 대한 참조를 위해 전역 변수를 생성했는데, `RequireJs` 와 같은 오래된 모듈 로더를 설정하는 것보다 페이지에 하나의 파일을 포함하는 것이 더 간단하고, 하나의 파일 출력을 위해 만들어진 프로젝트에는 코드 영역과 전역변수를 구성하는 방법이 필요했다.
 
-**타입스크립트 언어는 지금은 네임스페이스라 부르는 `내부  모듈` 개념을 가진 하나의 해결책을 제공했는데, 네임스페이스는 객체의 멤버로 호출할 수 있는 내보낸 콘텐츠가 있는 전역으로 사용 가능한 객체이다.**
+타입스크립트 언어는 지금은 네임스페이스라 부르는 `내부  모듈` 개념을 가진 하나의 해결책을 제공했는데, 네임스페이스는 객체의 멤버로 호출할 수 있는 내보낸 콘텐츠가 있는 전역으로 사용 가능한 객체이다.
 
-네임스페이스는 **namespace 키워드와 { } 코드 블럭** 으로 정의한다.
+네임스페이스는 namespace 키워드와 { } 코드 블럭 으로 정의한다.
 
 네임스페이스의 블록의 모든 코드는 함수 클로저 내에 평가된다.
 
@@ -395,7 +395,7 @@ var Randomized;
 
 ---
 
-### `**네임스페이스 내보내기**`
+### `네임스페이스 내보내기`
 
 네임스페이스를 유용하게 만드는 핵심 기능ㄹ은 콘텐츠를 네임스페이스 객체의 멤버로 만들어 내보내는 기능입니다.
 
@@ -488,7 +488,7 @@ const Settings = {
 };
 ```
 
-`**const 로 선언된 객체와 namespace 와의 차이점이라면, 서로 다른 파일로 분할 될 수 있고 멤버가 네임스페이스의 이름으로 여전히 참조될 수 있다는 점이다.**`
+`const 로 선언된 객체와 namespace 와의 차이점이라면, 서로 다른 파일로 분할 될 수 있고 멤버가 네임스페이스의 이름으로 여전히 참조될 수 있다는 점이다.`
 
 ---
 
@@ -539,7 +539,7 @@ var Root;
 
 네임스페이스를 타이핑할 때는 모든 코드에 사용 가능한 전역변수. 즉, 네임스페이스로 완벽하게 감싼 구조를 생성한다는 것을 나타내야 한다.
 
-타입스크립트 모듈 타입 정의에 `**export as namespace** 뒤에 전역이름을 포함하고`, 해당 이름을 사용해서 모듈을 전역으로 사용할 수 있다.
+타입스크립트 모듈 타입 정의에 `export as namespace 뒤에 전역이름을 포함하고`, 해당 이름을 사용해서 모듈을 전역으로 사용할 수 있다.
 
 ```tsx
 export const value: number;
@@ -556,19 +556,19 @@ const value = window.libexample.value;
 
 ECMA 스크립트 모듈을 사용해 최신 표준에 맞게 이전의 예제를 재작성 해볼 수 있다.
 
-```
+```ts
 // settings/constants.ts
 export const name = 'My Application';
 export const version = '1.2.3';
 
 // settings/describe.ts
-import {name, version } from './constants.ts'
+import { name, version } from './constants.ts';
 
 export function describe() {
-  return `${Settings.name} at version ${Settings.version}`
+  return `${Settings.name} at version ${Settings.version}`;
 }
 
-console.log("Initializing", describe())
+console.log('Initializing', describe());
 
 // Settings 를 어디서 참조하는지 ??
 ```
@@ -578,3 +578,28 @@ console.log("Initializing", describe())
 ### 타입 전용 가져오기와 내보내기
 
 타입스크립트 트랜스파일러는 자바스크립트 런타임에서 사용되지 않으므로 파일의 가져오기와 내보내기 에서 타입 시스템에서만 사용되는 값을 제거한다.
+
+타입스크립트는 `export` 와 `import` 선언에서 개별적으로 가져온 이름 또는 전체 { … } 객체앞에 type 제한자를 추가할 수 있다.
+
+이렇게 하면 타입 시스템에서만 사용된다는 것을 나타낸다.
+
+```tsx
+export { type TypeOne, value };
+export type { DefaultType, TypeTwo };
+
+import { type TypeOne, value } from 'my-example-types';
+import type { TypeTwo } from 'my-example-types';
+import type DefaultType from 'my-example-types';
+```
+
+```tsx
+import { ClassOne, type ClassTwo } from 'my-example-types';
+
+new ClassOne();
+
+new ClassTwo();
+
+//'ClassTwo' cannot be used as a value because it was imported using 'import type'.
+```
+
+내보내진 자바스크립트에 복잡성을 더하는 대신, 타입 전용 가져오기와 내보내기는 코드 일부를 제거할 수 있을때 타입스크립트 외부의 트랜스파일러에게 명확하게 알려준다.
