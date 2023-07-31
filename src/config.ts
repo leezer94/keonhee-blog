@@ -4,6 +4,7 @@ import {
   BobaeBilimLogo,
   PaldoGamesLogo,
   StackOverflowLogo,
+  LeezerUI,
 } from './assets/projects';
 
 export const SITE = {
@@ -26,6 +27,24 @@ export const LOGO_IMAGE = {
 export const POST_CATEGORIES = ['CS', 'Generics', 'ETC'];
 
 export const PROJECT_LIST: Project[] = [
+  {
+    title: 'Leezer/ui Component Library',
+    type: 'Frontend',
+    image: LeezerUI,
+    desc: '접근가능성, 확장성을 고려한 재사용 가능한 컴포넌트를 로컬에 보유하고 사용하세요.',
+    tags: [
+      'Typescript',
+      'Next.js 13',
+      'TailwindCSS',
+      'TurboRepo',
+      'Component',
+      'npm',
+    ],
+    liveUrl: 'https://ui-web-ebon.vercel.app/',
+    codeUrl: 'https://github.com/leezer94/ui',
+    retrospective:
+      'https://medium.com/@2kunhee94/shadncn-ui-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0-967852ad095f',
+  },
   {
     title: '보배빌림',
     type: 'Frontend',

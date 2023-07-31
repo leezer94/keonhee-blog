@@ -1,6 +1,5 @@
+import React from 'react';
 import type { Project } from '@types';
-import { SocialIcons } from '../../types';
-import socialIcons from '@assets/socialIcons';
 
 type Props = {
   index?: number;
@@ -12,9 +11,9 @@ type Tags = Pick<Project, 'tags'>;
 const ProjectCard: React.FC<Props | any> = ({ index, project }) => {
   const { tags }: Tags = project;
   return (
-    <div className={`md:basis-1/2 md:px-8 md:py-4 py-2`}>
+    <div className={`md:basis-1/2 md:px-8 md:py-4  py-4`}>
       <div className={`project-card project-card-${index}`}>
-        <div className="overflow-hidden">
+        <div className="border-gray-300 overflow-hidden rounded-md shadow-md">
           <img src={project.image} alt="project-image" width="100%" />
         </div>
         <div className="overflow-hidden">
