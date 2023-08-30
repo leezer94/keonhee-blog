@@ -1,15 +1,15 @@
 ---
 author: Keonhee Lee
 pubDatetime: 2023-08-30T04:03:00Z
-title: Nest.js 로 배우는 백엔드 프로그래밍 Chapter 3
-postSlug: nest-js-programming-chapter-3
+title: Nest.js 로 배우는 백엔드 프로그래밍 Chapter 4
+postSlug: nest-js-programming-chapter-4
 featured: true
 draft: false
 tags:
   - Typescript
   - NestJs
   - Backend
-description: 프로바이더
+description: 모듈
 ---
 
 # Chapter 4
