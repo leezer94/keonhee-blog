@@ -40,7 +40,7 @@ export const PROJECT_LIST: Project[] = [
       'Component',
       'npm',
     ],
-    liveUrl: 'https://ui-web-ebon.vercel.app/',
+    liveUrl: 'https://www.leezer-ui.com',
     codeUrl: 'https://github.com/leezer94/ui',
     retrospective:
       'https://medium.com/@2kunhee94/shadncn-ui-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0-967852ad095f',
